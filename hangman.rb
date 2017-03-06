@@ -78,8 +78,6 @@ end
 
 def start 
 	introduction
-	puts "Would you like to open a current save?"
-	response = gets.chomp
 	counter = 9
 	gameOver = false
 	player = Player.new
